@@ -1,0 +1,526 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ishaq Zarour/Documents/GitHub/Chess-Game/Chess-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61857
+Successfully changed project path to: C:/Users/Ishaq Zarour/Documents/GitHub/Chess-Game/Chess-Game
+C:/Users/Ishaq Zarour/Documents/GitHub/Chess-Game/Chess-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10708] Host "[IP] 192.168.137.243 [Port] 0 [Flags] 2 [Guid] 2478013840 [EditorId] 2478013840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8BK1FSL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10708] Host "[IP] 192.168.137.243 [Port] 0 [Flags] 2 [Guid] 2478013840 [EditorId] 2478013840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8BK1FSL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 129.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ishaq Zarour/Documents/GitHub/Chess-Game/Chess-Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.037289 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ishaq Zarour\Documents\GitHub\Chess-Game\Chess-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ishaq Zarour\Documents\GitHub\Chess-Game\Chess-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 119.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1666ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4902 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (229.1 KB). Loaded Objects now: 5347.
+Memory consumption went from 180.4 MB to 180.2 MB.
+Total: 4.134300 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.366500 ms MarkObjects: 3.153900 ms  DeleteObjects: 0.187000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83516.281870 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.016939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.266538 seconds.
+  path: Assets/Scenes/ChessGame.unity
+  artifactKey: Guid(f2a739363b9981c499181956f986d5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ChessGame.unity using Guid(f2a739363b9981c499181956f986d5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a772a50331e030aea20a13e92f81adb1') in 0.012408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.715319 seconds.
+  path: Assets/Chess pieces and board/PNGs
+  artifactKey: Guid(b8ad826b9e68d4d4ab6788327eaffc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs using Guid(b8ad826b9e68d4d4ab6788327eaffc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330d3e67e8b2cd3cd85f326ebeca451f') in 0.011928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.250297 seconds.
+  path: Assets/Chess pieces and board/PNGs/No shadow
+  artifactKey: Guid(4082ccfa784ba1e48949a03a3ac9e8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/No shadow using Guid(4082ccfa784ba1e48949a03a3ac9e8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d19599ece933fd30406430d746c14d5') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.256845 seconds.
+  path: Assets/Chess pieces and board/PNGs/No shadow/1x
+  artifactKey: Guid(de0467027a5d7db4e9d75088bace9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/No shadow/1x using Guid(de0467027a5d7db4e9d75088bace9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff2d331cdf5bdfd47e2d2ab9e5a73fa') in 0.012719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.671237 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow
+  artifactKey: Guid(c592eacda680d6d49899d88c95306cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow using Guid(c592eacda680d6d49899d88c95306cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429bc7aec993e8907e42978b3a5d4d33') in 0.013199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886627 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x
+  artifactKey: Guid(e450753139d3a7340ba5ddc62f3250f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x using Guid(e450753139d3a7340ba5ddc62f3250f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bb31f02afcb567eefc51d0ed358805') in 0.004839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050863 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_bishop_1x.png
+  artifactKey: Guid(465c4f30b69123d44b2ed62fe953c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_bishop_1x.png using Guid(465c4f30b69123d44b2ed62fe953c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6c7234bf9fd67718590ecbc7ea8374') in 0.202882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_pawn_1x.png
+  artifactKey: Guid(994ff2d38d1e1af4f8e149818c6dbf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_pawn_1x.png using Guid(994ff2d38d1e1af4f8e149818c6dbf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52025a1a470012558524bc1cc0fe5567') in 0.033161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_rook_1x.png
+  artifactKey: Guid(03813036b36a70348b9af9db899ed7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_rook_1x.png using Guid(03813036b36a70348b9af9db899ed7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fd21e54e6e0cc7d58cd6423910937b') in 0.032486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_rook_1x.png
+  artifactKey: Guid(94ad52c1d64e0e4438b5f9e1fc7c8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_rook_1x.png using Guid(94ad52c1d64e0e4438b5f9e1fc7c8aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f19a6223fbc048584d183320dc2f8f') in 0.032049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/square brown light_1x.png
+  artifactKey: Guid(926cc2ac29a12da4e83cb53aac2beace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/square brown light_1x.png using Guid(926cc2ac29a12da4e83cb53aac2beace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743bc4b7475710d7be2a29d50f48b24b') in 0.038873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/square gray light _1x.png
+  artifactKey: Guid(c3224f1d07cccce4abd7614334cb9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/square gray light _1x.png using Guid(c3224f1d07cccce4abd7614334cb9ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f569a7bae2198538d5b0c9362076d6d') in 0.035206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_queen_1x.png
+  artifactKey: Guid(d446df0a041f8e747a81d2144b3c1dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_queen_1x.png using Guid(d446df0a041f8e747a81d2144b3c1dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16204354f77c32544d0add4b4490467') in 0.038762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/square brown dark_1x.png
+  artifactKey: Guid(beca0292dbc02aa48b9939459715d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/square brown dark_1x.png using Guid(beca0292dbc02aa48b9939459715d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb734f9fa10c2311a3997bf0d7c4ec0') in 0.031657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_bishop_1x.png
+  artifactKey: Guid(3201f190bc8cd60419ffd964a0d6a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_bishop_1x.png using Guid(3201f190bc8cd60419ffd964a0d6a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae6ad51502aa4bfa58cdb4150a991a9') in 0.031909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_pawn_1x.png
+  artifactKey: Guid(0f002c31af633934a9d7bc84466772f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_pawn_1x.png using Guid(0f002c31af633934a9d7bc84466772f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de94392b16e9a50642e32742e5073ca4') in 0.031268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_knight_1x.png
+  artifactKey: Guid(d96620cd1145dee4ca0a25b00e562e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_knight_1x.png using Guid(d96620cd1145dee4ca0a25b00e562e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45285caf9179787a627a9d18900493d4') in 0.035771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/square gray dark _1x.png
+  artifactKey: Guid(bd852f903b1b4a04799b98cd4ddd19ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/square gray dark _1x.png using Guid(bd852f903b1b4a04799b98cd4ddd19ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a724c5aa2208173071182dcc32c593') in 0.033762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/b_king_1x.png
+  artifactKey: Guid(ebe9bad444e3fe047acc46b911923867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/b_king_1x.png using Guid(ebe9bad444e3fe047acc46b911923867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98968f7927f61b4cf01e19f9f7ac213e') in 0.036309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_queen_1x.png
+  artifactKey: Guid(a3d30279aaa2ff845afaaae0144add6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_queen_1x.png using Guid(a3d30279aaa2ff845afaaae0144add6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8761e21378cdb1855fa77053aaea14a6') in 0.035500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_king_1x.png
+  artifactKey: Guid(c273bccdc511e064eb08698c85117df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_king_1x.png using Guid(c273bccdc511e064eb08698c85117df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192779c5d2afc9c691a4967a7a4dbf16') in 0.034170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/1x/w_knight_1x.png
+  artifactKey: Guid(e44244b4f637f924e932c85728881533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/1x/w_knight_1x.png using Guid(e44244b4f637f924e932c85728881533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38a7aa9599de6e1efa05a907aa086b') in 0.031615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.711476 seconds.
+  path: Assets/Chess pieces and board/SVG with shadow
+  artifactKey: Guid(74c6656b9cfe2d44daf45c919729bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/SVG with shadow using Guid(74c6656b9cfe2d44daf45c919729bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0264580e6e433e979f84bbd566397d98') in 0.011988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.794917 seconds.
+  path: Assets/Chess pieces and board/chess pieces 5.ai
+  artifactKey: Guid(032383393a8ca68498be87ee0078b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/chess pieces 5.ai using Guid(032383393a8ca68498be87ee0078b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18caf62c2987ac3184d5f7370024e6') in 0.020718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.396882 seconds.
+  path: Assets/Chess pieces and board/PNGs/No shadow/1x/b_king_1x_ns.png.tmp$$
+  artifactKey: Guid(5b520ae43418a624ab30ad1a92430148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/No shadow/1x/b_king_1x_ns.png.tmp$$ using Guid(5b520ae43418a624ab30ad1a92430148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32910b9a160a1b2196710aa960d3e87e') in 0.013493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.128135 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x
+  artifactKey: Guid(bb3ff31b7c0a0a847857146310608b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x using Guid(bb3ff31b7c0a0a847857146310608b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0d1d21129055dd9a991c1dcf75d64c') in 0.012847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022472 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_bishop_2x.png
+  artifactKey: Guid(1acf6a171238a1d429b494c64675df03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_bishop_2x.png using Guid(1acf6a171238a1d429b494c64675df03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5836162c47d115231e1e10e4ae97fd1a') in 0.061184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_king_2x.png
+  artifactKey: Guid(e94705018b2607d4ca3e32c2470cd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_king_2x.png using Guid(e94705018b2607d4ca3e32c2470cd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646b3d78d33e0bb391af005531d0a70c') in 0.067885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_knight_2x.png
+  artifactKey: Guid(da1bd17abae6e5e428354226982a3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_knight_2x.png using Guid(da1bd17abae6e5e428354226982a3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4add38da097dd40fea496ad22acaadaa') in 0.055692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_pawn_2x.png
+  artifactKey: Guid(0905657822e3d04438fbf5ed82236d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_pawn_2x.png using Guid(0905657822e3d04438fbf5ed82236d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79427f784ef366b63445370b9b6a0b1') in 0.046563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/square brown dark_2x.png
+  artifactKey: Guid(613f10767d7fa5747b2ec479fca936c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/square brown dark_2x.png using Guid(613f10767d7fa5747b2ec479fca936c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f906fcbb793c13df8aa4ca86d90ff4') in 0.067361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/square gray dark _2x.png
+  artifactKey: Guid(cb83cd74f8539a6479bdbb5e1125777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/square gray dark _2x.png using Guid(cb83cd74f8539a6479bdbb5e1125777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069912ff42f7818c25814c6c2132d74e') in 0.060504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_queen_2x.png
+  artifactKey: Guid(ecec5a3c734f7824da3736e3578590dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_queen_2x.png using Guid(ecec5a3c734f7824da3736e3578590dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa4cf9c3b13f7a71640c13cfa47de8e') in 0.059848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/square gray light _2x.png
+  artifactKey: Guid(f59b78135c53a1f4fbe0fef418c06dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/square gray light _2x.png using Guid(f59b78135c53a1f4fbe0fef418c06dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a73104e7c7a51d0103eda5021ee017') in 0.056688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_bishop_2x.png
+  artifactKey: Guid(57f95855770c9d04a8e591f979bcec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_bishop_2x.png using Guid(57f95855770c9d04a8e591f979bcec71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3aaa0708e5cdc0a32e3b4c45af8422') in 0.057418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_rook_2x.png
+  artifactKey: Guid(2f31197771af3b543a97d1483b1c5beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_rook_2x.png using Guid(2f31197771af3b543a97d1483b1c5beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd7fdaec12a0e0ff8e768dd07998e2') in 0.052205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_knight_2x.png
+  artifactKey: Guid(56bba99b861791e4f9daf97f8c047808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_knight_2x.png using Guid(56bba99b861791e4f9daf97f8c047808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab369ba654adeaba2feee6a29f6f3479') in 0.047970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/square brown light_2x.png
+  artifactKey: Guid(b14498caf7549df45be5e591dc3223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/square brown light_2x.png using Guid(b14498caf7549df45be5e591dc3223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d6daa3ac66d428dbab7aacebdb7698') in 0.058218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_rook_2x.png
+  artifactKey: Guid(4ab7c885b2b10f642b3bfd90d5c3d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_rook_2x.png using Guid(4ab7c885b2b10f642b3bfd90d5c3d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae61d102a60f732ef36ba673e454f69a') in 0.049213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/b_pawn_2x.png
+  artifactKey: Guid(be9f8641754615e4b8912bc67285f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/b_pawn_2x.png using Guid(be9f8641754615e4b8912bc67285f76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418d0645017e163ccc1ca06a07ccacd3') in 0.043888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_king_2x.png
+  artifactKey: Guid(21c6faaa7e008d54588b233f086d7061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_king_2x.png using Guid(21c6faaa7e008d54588b233f086d7061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351f19997cb0f290f77bd719745e211f') in 0.058416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Chess pieces and board/PNGs/With Shadow/2x/w_queen_2x.png
+  artifactKey: Guid(a57fc8813e15ebc41b73e7f6314f757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/With Shadow/2x/w_queen_2x.png using Guid(a57fc8813e15ebc41b73e7f6314f757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd5d3fa65dc12c5949a178153e3af20') in 0.059850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.370580 seconds.
+  path: Assets/Chess pieces and board/board squares
+  artifactKey: Guid(65d65984e25db59419c9a26be68167bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/board squares using Guid(65d65984e25db59419c9a26be68167bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9999ccfef85cdd9536c5336e2bd390a') in 0.011696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.451875 seconds.
+  path: Assets/Chess pieces and board/PNGs/No shadow/1024h
+  artifactKey: Guid(ba681e81536a25c4699d828b467bda1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess pieces and board/PNGs/No shadow/1024h using Guid(ba681e81536a25c4699d828b467bda1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64d8288e696145c75abe69ed7b74a4e') in 0.011324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.292391 seconds.
+  path: Assets/chess-pack
+  artifactKey: Guid(965563c5c155dea4dbf0ec456b619df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack using Guid(965563c5c155dea4dbf0ec456b619df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07faf9c26011a958a20a0531bfcb132f') in 0.010699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032211 seconds.
+  path: Assets/chess-pack/board.png
+  artifactKey: Guid(f40d4d0e398c8aa418087ec03e34a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/board.png using Guid(f40d4d0e398c8aa418087ec03e34a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77a63936ded4314afe17dbc10bf2e17') in 0.233599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/chess-pack/chess-knight-white.png
+  artifactKey: Guid(c4fd7c4c4600bf14fa8ae1d7dbcb37a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-knight-white.png using Guid(c4fd7c4c4600bf14fa8ae1d7dbcb37a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffd2ae09ed8c0508d88131f0cdf5c61') in 0.035582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/chess-pack/chess-bishop-black.png
+  artifactKey: Guid(510152ea51d3ba745a58fcad4e6da75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-bishop-black.png using Guid(510152ea51d3ba745a58fcad4e6da75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e7c7159c90d1943ada6cd1562cf60') in 0.034771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/chess-pack/chess-rook-black.png
+  artifactKey: Guid(b652a1789e3baa04ebf506e3ba9babbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-rook-black.png using Guid(b652a1789e3baa04ebf506e3ba9babbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a22ebae3e99d7998824ea65533a02') in 0.031054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/chess-pack/chess-knight-black.png
+  artifactKey: Guid(3fa85da8445c0f54b9697ed90a615305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-knight-black.png using Guid(3fa85da8445c0f54b9697ed90a615305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87e66855fb3670335ca40e46555b8bd') in 0.033621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/chess-pack/chess-bishop-white.png
+  artifactKey: Guid(132d2968e7389b748be759fd1fa92319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-bishop-white.png using Guid(132d2968e7389b748be759fd1fa92319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16589cfa0d06f6c203fc5b9644f5859') in 0.034355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/chess-pack/chess-king-white.png
+  artifactKey: Guid(d2dd007d95e862c4ca3c1c841f74a58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-king-white.png using Guid(d2dd007d95e862c4ca3c1c841f74a58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe63ea91adea342de3122f661320f19') in 0.031194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/chess-pack/chess-queen-black.png
+  artifactKey: Guid(227bc81d913d53e45a70bc98c8643e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-queen-black.png using Guid(227bc81d913d53e45a70bc98c8643e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dc613f31b51b37806be4b1904ebcd0') in 0.028947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/chess-pack/chess-queen-white.png
+  artifactKey: Guid(22e441f5ad350064399b3e4aff642082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-queen-white.png using Guid(22e441f5ad350064399b3e4aff642082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e1c0e1448450df414800a7db5fc570') in 0.031701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/chess-pack/chess-rook-white.png
+  artifactKey: Guid(775a102303effca4cb1114d751466a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-rook-white.png using Guid(775a102303effca4cb1114d751466a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020698afb3f6dfadb4538c92c6efecb4') in 0.030717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/chess-pack/chess-pawn-black.png
+  artifactKey: Guid(5e4ee6b107b51c44ea38fc7999a1062c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-pawn-black.png using Guid(5e4ee6b107b51c44ea38fc7999a1062c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103c895006c21e11fffa61d2ba8f6ef8') in 0.030902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/chess-pack/chess-pawn-white.png
+  artifactKey: Guid(ac9fcfe52cc0a6a46b81b15775812461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-pawn-white.png using Guid(ac9fcfe52cc0a6a46b81b15775812461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8621a03876c9c87a8d8b7c5e4c5f61e7') in 0.031038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/chess-pack/chess-king-black.png
+  artifactKey: Guid(e9d21b84acb3af34c86069197028a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chess-pack/chess-king-black.png using Guid(e9d21b84acb3af34c86069197028a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfb1e81edc0eab68ed5e8e280a9dbaf') in 0.030068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 204.689453 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55265d7298998b53e3de9c4a0d4498bf') in 0.011427 seconds 
